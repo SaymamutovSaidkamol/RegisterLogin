@@ -84,8 +84,8 @@ const Register = () => {
                 layout="vertical"
               >
                 <div className='container mx-auto py-3  flex justify-center items-center'>
-                  <div className='size-24 rounded-lg overflow-hidden bg-[#ccc]  relative'>
-                    <span className='absolute top-1/2 left-1/2 -translate-1/2 font-bold text-[#5e5d5d]'>Upload image</span>
+                  <div className='size-30 rounded-[50%] overflow-hidden bg-[#ccc] border-[3px] border-dashed border-black  relative'>
+                    <span className='absolute top-1/2 left-1/2 -translate-1/2 font-bold text-[#5e5d5d] text-[17px]'>Upload image</span>
                     <img src={filePreview || uploadedFileUrl || ""} alt="" className='w-full h-full object-contain relative' />
                     <input className='absolute top-0 left-0 w-full h-full opacity-0 cursor-pointer' type="file" onChange={(e) => handleUpload(e.target.files)} accept="images/*" />
                   </div>
