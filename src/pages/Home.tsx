@@ -20,7 +20,7 @@ const Home = () => {
   return (
     <div className='container mx-auto flex h-screen justify-center items-center '>
       <div className='rounded-[8px] bg-[#eee] shadow-2xl'>
-        <div><img src="https://t4.ftcdn.net/jpg/00/65/77/27/360_F_65772719_A1UV5kLi5nCEWI0BNLLiFaBPEkUbv5Fv.jpg" className='' alt="" /></div>
+        <div><img src={data?.img} className='' alt="" /></div>
         <div className='flex flex-col justify-center items-center py-5'>
           <h1><strong>First Name: </strong>{data?.firstname}</h1>
           <h1><strong>Last Name: </strong>{data?.lastname}</h1>
